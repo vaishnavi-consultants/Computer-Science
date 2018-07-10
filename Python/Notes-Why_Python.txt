@@ -13,6 +13,10 @@ b) Developer productivity
       less to type, less to debug, and less to maintain after the fact. 
     * Python programs also run immediately, without the lengthy compile and link steps required by some other tools,
       further boosting programmer speed.
+      
+    In Short:    
+    * It is deliberately optimized for speed of development—its simple syntax, dynamic typing, lack of compile steps, and           built-in toolset allow programmers to develop programs in a fraction of the time needed when using some other
+      tools.  
 c)  Program portability
     * Most Python programs run unchanged on all major computer platforms. Porting
       Python code between Linux and Windows, for example, is usually just a matter of
@@ -34,3 +38,52 @@ e)  Component integration - Product customization and extension tool
       @ can interact over networks with interfaces like SOAP, XML-RPC, and CORBA
 f) Enjoyment
     * Python’s ease of use and built-in toolset.  
+    
+    
+Disadvantages
+-------------
+only significant universal downside to Python is that, as currently implemented, its execution speed may not always be as fast as that of fully compiled and lower-level languages such as C and C++.
+
+What you can do with Python
+---------------------------
+
+1. System Programming
+   Python’s built-in interfaces to operating-system services make it ideal for writing
+   portable, maintainable system-administration tools and utilities. Python programs can search files and directory trees,      launch other programs, do parallel processing with processes and threads, and so on
+   
+   Support for:   environment variables, 
+                  files, 
+                  sockets, 
+                  pipes, 
+                  processes, 
+                  multiple threads, 
+                  regular expression 
+                  pattern matching, 
+                  command-line arguments, 
+                  standard stream interfaces,
+                  shell-command launchers, 
+                  filename expansion, 
+                  zip file utilities, XML and JSON parsers, CSV file handlers, and more.
+   
+2. GUI's
+   Python comes with a standard object-oriented interface to the Tk GUI API called tkinter (Tkinter in 2.X) that allows          Python programs to implement portable GUIs with a native look and feel.
+   
+3. Internet Scripting
+   Python comes with standard Internet modules that allow Python programs to perform
+   a wide variety of: 
+         networking tasks, in client and server modes. 
+         Scripts can communicate over sockets:
+               * extract form information sent to server-side CGI scripts; 
+               * transfer files by FTP; 
+               * parse and generate XML and JSON documents; 
+               * send, receive, compose, and parse email;
+               * fetch web pages by URLs; 
+               * parse the HTML of fetched web pages; 
+               * communicate over XML-RPC, SOAP, and Telnet; and more. 
+   Python’s libraries make these tasks remarkably simple.
+   
+ 4. Component Integration
+ 5. Database Programming
+    There are Python interfaces to all commonly used relational database systems—Sybase, Oracle, Informix, ODBC, MySQL,           PostgreSQL,SQLite, and more.  
+ 6. Rapid Prototyping
+ 7. Numeric and Scientific Programming  

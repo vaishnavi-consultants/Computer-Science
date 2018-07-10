@@ -35,9 +35,28 @@ Python—modules are just packages of additional tools that we import to use
 
 >>> import math
 >>> math.pi
-
+3.141592653589793
 >>> math.sqrt(64)
-
+8.0
 >>> math.sqrt(65)
+8.06225774829855
+>>> 
 
->> import random      // random.random(), random.choice([1,2,3,4,5])
+>>> import random
+>>> random.random()
+0.16915324081029082
+>>> random.random()
+0.8141500206235782
+>>> random.choice([1,2,3,4,5])
+2
+>>> random.choice([1,2,3,4,5])
+5
+>>> random.choice([1,2,3,4,5])
+2
+>>> random.choice([1,2,3,4,5])
+5
+>>> random.choice([1,2,3,4,5])
+2
+>>> random.choice([1,2,3,4,5])
+1
+>>> random.choice([1,2,3,4,5])

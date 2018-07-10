@@ -1,0 +1,36 @@
+Why use Python?
+---------------
+a)  Software Quality
+    * Python’s focus on readability, coherence, and software quality.
+    * Python code is designed to be readable, and hence reusable and maintainable much more so than traditional
+      scripting languages. 
+    * Python has deep support for more advanced software reuse mechanisms such as object-oriented (OO) and 
+      function programming.
+b) Developer productivity
+    * Python boosts developer productivity many times beyond compiled or statically
+      typed languages such as C, C++, and Java. 
+    * Python code is typically one-third to one-fifth the size of equivalent C++ or Java code. This means there is 
+      less to type, less to debug, and less to maintain after the fact. 
+    * Python programs also run immediately, without the lengthy compile and link steps required by some other tools,
+      further boosting programmer speed.
+c)  Program portability
+    * Most Python programs run unchanged on all major computer platforms. Porting
+      Python code between Linux and Windows, for example, is usually just a matter of
+      copying a script’s code between machines. 
+d)  Support libraries
+    Python comes with a large collection of prebuilt and portable functionality, known
+    as the standard library. This library supports an array of application-level pro-
+    gramming tasks, from 
+        #   text pattern matching to network scripting. 
+    In addition, Python can be extended with both homegrown libraries and a vast collection of
+    third-party application support software.
+e)  Component integration - Product customization and extension tool    
+    * Python code can : 
+      @ invoke C and C++ libraries, 
+      @ can be called from C and C++ programs, 
+      @ can integrate with Java and .NET components, 
+      @ can communicate over frameworks such as COM and Silverlight, 
+      @ can interface with devices over serial ports, and 
+      @ can interact over networks with interfaces like SOAP, XML-RPC, and CORBA
+f) Enjoyment
+    * Python’s ease of use and built-in toolset.  

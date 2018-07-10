@@ -1,0 +1,43 @@
+Linux
+------
+To find Python Version installed
+--------------------------------
+On command shell type:
+
+python -V
+
+NUMBERS
+-------
+Python’s core objects set includes
+  * integers that have no fractional part, 
+  * floating-point numbers that do, and 
+  * complex numbers with imaginary parts, 
+  * decimals with fixed precision, 
+  * rationals with numerator and denominator etc
+  
+Operations  - +, * and **
+----------
+aadhya@aadhya-Inspiron-3268:~$ python
+Python 2.7.14 (default, Sep 23 2017, 22:06:14) 
+[GCC 7.2.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2 + 5
+7
+>>> 2.0 * 5
+10.0
+>>> 2 ** 5
+32
+>>> 3.1415 * 2
+6.283
+
+Besides expressions, there are a handful of useful numeric modules that ship with
+Python—modules are just packages of additional tools that we import to use
+
+>>> import math
+>>> math.pi
+
+>>> math.sqrt(64)
+
+>>> math.sqrt(65)
+
+>> import random      // random.random(), random.choice([1,2,3,4,5])

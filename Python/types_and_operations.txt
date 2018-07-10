@@ -1,0 +1,56 @@
+Python Object Types
+-------------------
+In Python, data takes the form of objects—
+  * either built-in objects that Python provides, or 
+  * objects we create using Python classes or 
+  * external language tools such as C extension libraries
+  
+object has set of values and associated operations. We can say, in python 'Object' is fundamental notion.
+
+Python Built-in Object types
+----------------------------
+Python program can be decomposed in to 
+  * modules, 
+  * statements, 
+  * expressions, and 
+  * objects
+  
+The relationship defined as:
+  
+1. Programs are composed of modules.
+2. Modules contain statements.
+3. Statements contain expressions.
+4. Expressions create and process objects.
+  
+Why to use Built-In Types
+-------------------------
+Reason 1:
+---------
+Because We get powerful tools such as collections (lists) and search tables (dictionaries) for free,
+you can use them immediately.
+Reason 2: Built-in objects are components of extensions.
+---------
+Reason 3: Built-in objects are often more efficient (already optimized) than custom data structures.
+---------
+Reason 4: Built-in objects are a standard part of the language.
+---------
+
+Python’s Core Data Types
+------------------------
+Object type         Example literals/creation
+Numbers             1234 , 3.1415 , 3+4j , 0b111 , Decimal() , Fraction()
+Strings             'spam' , "Bob's" , b'a\x01c' , u'sp\xc4m'
+Lists               [1, [2, 'three'], 4.5] , list(range(10))
+Dictionaries        {'food': 'spam', 'taste': 'yum'} , dict(hours=10)
+Tuples              (1, 'spam', 4, 'U') , tuple('spam') , namedtuple
+Files               open('eggs.txt') , open(r'C:\ham.bin', 'wb')
+Sets                set('abc') , {'a', 'b', 'c'}
+Other core types    Booleans, types, None
+Program unit types  Functions, modules, classes
+
+Note
+----
+In formal terms, Python is dynamically typed, a model that keeps track of types for you automatically 
+instead of requiring declaration code, but it is also strongly typed, a constraint that means you can 
+perform on an object only operations that are valid for its type.
+

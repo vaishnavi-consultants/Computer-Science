@@ -1,1 +1,26 @@
+LISTS
+------
+* They are positionally ordered collections of arbitrarily typed objects, 
+* They have no fixed size.
+* They are also mutable—unlike strings, lists can be modified in place by assignment to
+  offsets as well as a variety of list method calls.
+  
+Because they are sequences, lists support all the sequence operations like strings; 
+the only difference is that the results are usually lists instead of strings. For
+instance, given a three-item list:
 
+>>> L = [123, 'spam', 1.23]   # A list of three different-type objects
+>>> len(L)                    # Number of items in the list
+3
+
+we can index, slice, and so on, just as for strings:
+>>> L[0]                      # Indexing by position
+123
+>>> L[:-1]                    # Slicing a list returns a new list
+[123, 'spam']
+>>> L + [4, 5, 6]             # Concat/repeat make new lists too
+[123,'spam', 1.23, 4, 5, 6]
+>>> L * 2
+[123, 'spam', 1.23, 123, 'spam', 1.23]
+>>> L
+[123, 'spam', 1.23]           # We're not changing the original list

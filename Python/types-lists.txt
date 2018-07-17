@@ -24,3 +24,55 @@ we can index, slice, and so on, just as for strings:
 [123, 'spam', 1.23, 123, 'spam', 1.23]
 >>> L
 [123, 'spam', 1.23]           # We're not changing the original list
+
+Note:
+-----
+The list we just looked at,
+1. contains three objects of completely different types (an integer, a string,
+and a floating-point number). 
+2. Lists have no fixed size, which means they can grow and shrink on demand, in response to list-specific operations.
+
+Type specific operations:
+-------------------------
+APPEND
+------
+[root@centos72-bgururaj ~]# python
+Python 2.7.5 (default, Apr 11 2018, 07:36:10)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-28)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> L = [123, 'spam', 1.23]
+>>> L
+[123, 'spam', 1.23]
+>>> L.append('NI')
+>>> L
+[123, 'spam', 1.23, 'NI']
+>>> L.append(1345)
+>>> L
+[123, 'spam', 1.23, 'NI', 1345]
+>>>
+
+POP
+---
+>>> L.pop(1)
+'spam'
+
+>>> L
+[123, 1.23, 'NI', 1345]
+>>> L.append('spam')
+>>> L
+[123, 1.23, 'NI', 1345, 'spam']
+>>>
+
+SORT
+----
+>>> L.sort()
+>>> L
+[1.23, 123, 1345, 'NI', 'spam']
+>>>
+
+REVERSE
+-------
+>>> L.reverse()
+>>> L
+['spam', 'NI', 1345, 123, 1.23]
+

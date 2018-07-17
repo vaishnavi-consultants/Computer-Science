@@ -61,7 +61,16 @@ POP
 >>> L.append('spam')
 >>> L
 [123, 1.23, 'NI', 1345, 'spam']
->>>
+
+COUNT
+-----
+>>> L.count('spam')
+1
+>>> L.append('spam')      # append again same string element.
+>>> L
+['spam', 'NI', 1345, 123, 1.23, 'spam']
+>>> L.count('spam')
+2
 
 SORT
 ----
@@ -75,4 +84,42 @@ REVERSE
 >>> L.reverse()
 >>> L
 ['spam', 'NI', 1345, 123, 1.23]
+
+Bounds Checking
+---------------
+Indexing off the end of a list is always a mistake, but so is assigning off
+the end.
+
+>>> L
+['spam', 'NI', 1345, 123, 1.23]
+
+>>> L[99]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> L[99] = 1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list assignment index out of range
+
+Nesting
+-------
+*   Nice feature of Python’s core data types is that they support arbitrary nesting—we
+can nest them in any combination, and as deeply as we like.
+*   we can have a list that contains a dictionary, which contains another list.
+
+Example: Matrixes.
+
+>>> M = [[1,2,3],
+... [4,5,6],
+... [7,8,9]]
+>>> M
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+>>> M[1]
+[4, 5, 6]
+>>> M[1][2]
+6
+>>>
+
+
 

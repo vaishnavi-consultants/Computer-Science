@@ -1,0 +1,7 @@
+TUPLES
+
+* The tuple object is roughly like a list that cannot be changed— i.e tuples are sequences, like lists, but they are
+  immutable, like strings. 
+* Functionally, they’re used to represent fixed collections of items: the components of a specific calendar date, for instance. 
+* Syntactically, they are normally coded in parentheses instead of square brackets, and 
+* They support arbitrary types, arbitrary nesting, and the usual sequence operations.

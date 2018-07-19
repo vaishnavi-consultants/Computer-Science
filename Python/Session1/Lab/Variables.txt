@@ -1,0 +1,37 @@
+# Variables
+>>> message = "Hello, world"
+>>> x = 17
+>>> y = 67.8
+
+# Printing values
+>>> message
+'Hello, world'
+
+>>> x
+17
+
+>>> y
+67.8
+
+# Variables can change values over time
+>>> Batsman = "Dhoni"
+>>> Batsman
+'Dhoni'
+
+>>> Batsman = "Kholi"
+>>> Batsman
+'Kholi'
+
+# Variables can be assigned with different values
+>>> Batsman = 2   # From string above to integer 2
+>>> Batsman
+2
+
+# Expression product values
+>>> 1 + 1
+2
+
+# Statements do not produce the values
+>>> x = 1 + 1
+>>> x
+2

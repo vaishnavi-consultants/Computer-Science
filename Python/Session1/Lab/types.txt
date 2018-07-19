@@ -1,6 +1,5 @@
 
-String type
-----------
+# String type
 >>> type("hello")
 <type 'str'>
 
@@ -21,8 +20,7 @@ String type
 
 >>> type("This is python programming discussion")
 <type 'str'>
->>> 
->>> 
+
 >>> type("My name is 'Gururaja' !")
 <type 'str'>
 
@@ -44,18 +42,15 @@ String type
 >>> '''Gururaj'''
 'Gururaj'
 
-Integer type
-------------
+# Integer type
 >>> type(45)
 <type 'int'>
 
-Float type
-----------
+# Float type
 >>> type(45.0)
 <type 'float'>
 
-Module type
------------
+# Module type
 >>> import math
 >>> type(math)
 <type 'module'>

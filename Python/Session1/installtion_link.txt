@@ -1,0 +1,4 @@
+Python Version: 3.6.4
+https://www.python.org/downloads/release/python-364/
+
+Download executable for windows, follow the instruction and install.

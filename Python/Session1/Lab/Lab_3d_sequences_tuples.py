@@ -41,7 +41,3 @@ print(tuple1 * 2)
 # (-20, 15.5, 'Gururaj')
 # Gururaj
 # (100, -20, 15.5, 'Gururaj', 'Naveen', [10, 20, 30], ('name', 'age'), 100, -20, 15.5, 'Gururaj', 'Naveen', [10, 20, 30], ('name', 'age'))
-
-
-
-

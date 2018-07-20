@@ -54,3 +54,5 @@
 >>> import math
 >>> type(math)
 <type 'module'>
+
+# Try for list, tuple, dictionary, set.

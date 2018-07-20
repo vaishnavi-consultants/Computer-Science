@@ -31,4 +31,3 @@ for i in range2:
 15
 20
 25
-

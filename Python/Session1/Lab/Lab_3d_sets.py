@@ -82,7 +82,3 @@ print(list3)
 #   File "<pyshell#119>", line 1, in <module>
 #    fs.remove(200)
 # AttributeError: 'frozenset' object has no attribute 'remove'
-
-
-
-

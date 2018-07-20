@@ -45,10 +45,3 @@ print(student.keys())
 
 print(student.values())
 # dict_values(['Rajeev', '5'])
-
-
-
-
-
-
-

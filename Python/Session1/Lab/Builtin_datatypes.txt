@@ -1,0 +1,34 @@
+# Built-in Datatypes
+# None
+# Numeric Types ( Lab )
+#   * int - In python there is not limit for the size of an int datatype
+#   * float - 
+#   * complex
+# Representing Binary, Octal and Hexadecimal numbers ( Lab )
+# Converting the datatype explicitly    ( Lab ) 
+# Sequences
+# Sets
+# Mappings
+
+# int
+>>> x = 12333346666666666666666666666433333333333333
+>>> x
+12333346666666666666666666666433333333333333
+>>> x = 50
+>>> x = -50
+>>> x = 564343432
+
+# float
+>>> x = 55.3423
+>>> x
+55.3423
+>>> x = 22.55e3
+>>> x
+22550.0
+
+# complext datatype
+>>> c1 = -1-5.5J
+>>> c2 = 3.0-0.5J
+>>> c1 + c2
+(2-6j)
+>>> 

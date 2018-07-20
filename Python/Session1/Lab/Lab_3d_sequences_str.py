@@ -51,5 +51,3 @@ print(str1 * 2)
 
 print(str1 + str2)
 # WelcomePython
-
-

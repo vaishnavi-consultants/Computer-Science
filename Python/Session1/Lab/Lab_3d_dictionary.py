@@ -25,6 +25,25 @@ student = {'name': 'Rajeev','class':'4','course':'computers'}
 print(student)
 # {'name': 'Rajeev', 'class': '4', 'course': 'computers'}
 
+# printing keys using keys() and for loop.
+print("Getting keys using keys() function")
+print(student.keys())
+# Result
+# ------
+# Getting keys using keys() function
+# dict_keys(['name', 'class', 'course'])
+
+print("Getting keys using for loop")
+for stu  in student:
+    print(stu)
+
+# Result
+# ------
+# Getting keys using for loop
+# name
+# class
+# course    
+
 # Retrival
 print(student['name'])
 # Rajeev

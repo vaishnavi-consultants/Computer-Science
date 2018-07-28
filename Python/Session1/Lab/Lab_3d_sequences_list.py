@@ -56,3 +56,20 @@ print (list1 +  list2)
 # ------
 # [10, 20, 30, 40, 10, 20, 30, 40]
 # [10, 20, 30, 40, 'Bangalore', 'Delhi', 'Tamilnadu']
+
+# Append
+print("Appending to list1 50")
+print('Current list1 items')
+print(list1)
+print("Append 50")
+list1.append(50)
+print("Ater appending")
+print(list1)
+
+# Result
+# Appending to list1 50
+# Current list1 items
+# [10, 20, 30, 40]
+# Append 50
+# Ater appending
+# [10, 20, 30, 40, 50]

@@ -73,3 +73,27 @@ print(list1)
 # Append 50
 # Ater appending
 # [10, 20, 30, 40, 50]
+
+# List membership
+print("List membership - in operator")
+horsemen = ['war', 'famine', 'pestilence', 'death']
+if 'pestilence' in horsemen:
+    print("its member")
+else:
+    print("its not a member")
+
+if 'bangalore' in horsemen:
+    print("its member")
+else:
+    print("its not a member")
+
+# List membership - in operator
+# its member
+# its not a member
+
+print("List membership - not in operator")
+if 'bangalore' not in horsemen:
+    print("its not in horsemen")
+    
+# List membership - not in operator
+# its not in horsemen

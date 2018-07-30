@@ -14,6 +14,7 @@ import sys
 import argparse
 from sqlite_create_db import sqlite3_create_db
 from sqlite_insert import sqlite3_insert_rec
+from sqlite_fetch import sqlite3_fetch_rec
 
 # Create an object of ArgumentParser class
 parser = argparse.ArgumentParser(description='Sqlite Database')
@@ -39,7 +40,7 @@ elif args.op == "Update":
 elif args.op == "Delete":
     sqlite3_delete_rec()
 elif args.op == "Fetch":
-    sqlite3_fetch_rec()
+    sqlite3_fetch_rec(args.db, args.tbl)
 elif args.op == "Create":
     # Creating new db
     print("Creating new db by name",args.db)

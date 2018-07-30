@@ -37,7 +37,9 @@ if args.op == "Insert":
     sqlite3_insert_rec(args.db, args.tbl, args.rec)
 elif args.op == "Update":
     sqlite3_update_rec()
+    # conn.execute("UPDATE Student SET name = 'Sam' where unix='B113059'")
 elif args.op == "Delete":
+    # conn.execute("DELETE from Student where unix='B113058'")
     sqlite3_delete_rec()
 elif args.op == "Fetch":
     sqlite3_fetch_rec(args.db, args.tbl)
@@ -60,3 +62,34 @@ else:
 # print('The args one by one')
 # for argument in args:
 #    print(argument)
+
+
+# PROGRAM 2
+
+# Data input by User
+# code for executing query using input data
+# import sqlite3
+ 
+# creates a database in RAM
+# con = sqlite3.connect(":memory:")
+# cur = con.cursor()
+# cur.execute("create table person (name, age, id)")
+ 
+# print ("Enter 5 students names:")
+# who = [raw_input() for i in range(5)]
+# print ("Enter their ages respectively:")
+# age = [int(raw_input()) for i in range(5)]
+# print ("Enter their ids respectively:")
+# p_id = [int(raw_input()) for i in range(5)]
+# n = len(who)
+ 
+# for i in range(n):
+ 
+    # This is the q-mark style:
+    # cur.execute("insert into person values (?, ?, ?)", (who[i], age[i], p_id[i]))
+ 
+    # And this is the named style:
+    # cur.execute("select * from person")
+ 
+    # Fetches all entries from table
+    # print cur.fetchall()

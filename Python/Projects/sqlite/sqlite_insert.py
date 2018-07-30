@@ -2,6 +2,8 @@
 # insertions with SQL
  
 # importing module
+# python sqlite.py Insert Accounts employee "3, 'Sridevi', '240000', 'M', 'Software'"
+
 import sqlite3
 
 def sqlite3_insert_rec(dbname, tablename, rec):

@@ -1,4 +1,6 @@
 # Python code to demonstrate SQL to fetch data.
+
+# python sqlite.py Fetch Accounts employee ""
  
 # importing the module
 import sqlite3

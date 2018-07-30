@@ -12,10 +12,12 @@
 
 import sys
 import argparse
+
 from sqlite_create_db import sqlite3_create_db
 from sqlite_insert import sqlite3_insert_rec
 from sqlite_fetch import sqlite3_fetch_rec
 from sqlite_delete import sqlite3_delete_rec
+from sqlite_update import sqlite3_update_rec
 
 # Create an object of ArgumentParser class
 parser = argparse.ArgumentParser(description='Sqlite Database')
@@ -25,24 +27,29 @@ parser = argparse.ArgumentParser(description='Sqlite Database')
 parser.add_argument("op", type=str, help="Operation to perform")
 parser.add_argument("db", type=str, help="Database name")
 parser.add_argument("tbl", type=str, help="Database Table")
-parser.add_argument("rec", type=str, help="Record to insert")
+parser.add_argument("rec", type=str, help="Record to insert/Conditions to check")
 
 args = parser.parse_args()
-print('Priting vlaues using parser.parse_args')
-print('op=',args.op, end='\t')
-print('db=',args.db, end='\t')
-print('rec=',args.rec)
+print('op='+args.op, end='\t')
+print('db='+args.db, end='\t')
+print('tbl='+args.tbl, end='\t')
+print('rec='+args.rec)
 
 if args.op == "Insert":
+    # Inserting new record in to db
     print("Inserting new record in to database")
     sqlite3_insert_rec(args.db, args.tbl, args.rec)
 elif args.op == "Update":
-    sqlite3_update_rec()
-    # conn.execute("UPDATE Student SET name = 'Sam' where unix='B113059'")
+    # Updating the existing record in the db
+    print("Updating the existing record")
+    sqlite3_update_rec(args.db, args.tbl, args.rec)
 elif args.op == "Delete":
-    # conn.execute("DELETE from Student where unix='B113058'")
+    # Deleting the existing record in the db
+    print("Deleting the existing record")
     sqlite3_delete_rec(args.db, args.tbl, args.rec)
 elif args.op == "Fetch":
+    # Fetch the records in the db
+    print("Fetch the records in database")
     sqlite3_fetch_rec(args.db, args.tbl)
 elif args.op == "Create":
     # Creating new db

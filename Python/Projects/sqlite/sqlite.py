@@ -15,6 +15,7 @@ import argparse
 from sqlite_create_db import sqlite3_create_db
 from sqlite_insert import sqlite3_insert_rec
 from sqlite_fetch import sqlite3_fetch_rec
+from sqlite_delete import sqlite3_delete_rec
 
 # Create an object of ArgumentParser class
 parser = argparse.ArgumentParser(description='Sqlite Database')
@@ -40,7 +41,7 @@ elif args.op == "Update":
     # conn.execute("UPDATE Student SET name = 'Sam' where unix='B113059'")
 elif args.op == "Delete":
     # conn.execute("DELETE from Student where unix='B113058'")
-    sqlite3_delete_rec()
+    sqlite3_delete_rec(args.db, args.tbl, args.rec)
 elif args.op == "Fetch":
     sqlite3_fetch_rec(args.db, args.tbl)
 elif args.op == "Create":

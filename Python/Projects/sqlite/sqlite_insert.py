@@ -2,7 +2,7 @@
 # insertions with SQL
  
 # importing module
-# python sqlite.py Insert Accounts employee "3, 'Sridevi', '240000', 'M', 'Software'"
+# python sqlite.py Insert Accounts employee "3, 'Maha', '240000', 'M', 'Software'"
 
 import sqlite3
 

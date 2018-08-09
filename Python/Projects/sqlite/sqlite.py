@@ -22,10 +22,11 @@
 # 3. Update the records
 # 4. Delete the records
 
-# Command line
-# python sqlite.py <operation> <database> <tablename> <values>
-# Example:
-# python sqlite.py insert myDatabase.db emp "23, 'Guru'"
+# usage: sqlite.py [-h] op db tbl rec
+# Note: op - operation ( Create, Delete, Insert, Update or Fetch )
+#       db - Database name
+#       tbl - Table in the database
+#       rec - Record to insert. This is valid for Create.
 
 import sys
 import argparse

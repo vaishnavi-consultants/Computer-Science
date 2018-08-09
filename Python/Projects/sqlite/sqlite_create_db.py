@@ -5,7 +5,7 @@
 # TODO: create new database with different fileds.
 
 # Syntax:  python sqlite.py create <database_name> <tablename>
-# Example: python sqlite.py Create newdb "student"
+# Example: python sqlite.py Create Accounts employee ""
  
 # importing module
 import sqlite3

@@ -1,6 +1,22 @@
-# sqlite
+#-------------------------------------------------------------------------- 
+# sqlite3 - DB-API 2.0 interface for SQLite databases
+# Documentation:
+# SQLite is a C library that provides a lightweight disk-based database
+# that doesn’t require a separate server process and allows accessing the
+# database using a nonstandard variant of the SQL query language. Some
+# applications can use SQLite for internal data storage.
+# It’s also possible to prototype an application using SQLite and then port
+# the code to a larger database such as PostgreSQL or Oracle.
+#--------------------------------------------------------------------------
+# Note: In this small project we study about
+# -----
+# 1. argparse - Parser for command-line options, arguments and sub-commands.
+# 2. sqlite3.
+# 3. functions - Defining functions, calling them, importing.
+# 4. control statements.
+# 
 # This is main program which parses the command line arguments
-# executes the query:
+# executes the query based on user input:
 # 1. Create database
 # 2. Insert to database
 # 3. Update the records
@@ -8,7 +24,8 @@
 
 # Command line
 # python sqlite.py <operation> <database> <tablename> <values>
-# Example: python sqlite.py insert myDatabase.db emp "23, 'Guru'"
+# Example:
+# python sqlite.py insert myDatabase.db emp "23, 'Guru'"
 
 import sys
 import argparse

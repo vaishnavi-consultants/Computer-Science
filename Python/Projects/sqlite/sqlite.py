@@ -29,6 +29,13 @@
 #       rec - Record to insert. This is valid for Create.
 
 import sys
+# The argparse module:
+# --------------------
+# The argparse module makes it easy to write user-friendly command-line interfaces.
+# The program defines what arguments it requires, and argparse will figure out how
+# to parse those out of sys.argv.
+# The argparse module also automatically generates help and
+# usage messages and issues errors when users give the program invalid arguments.
 import argparse
 
 from sqlite_create_db import sqlite3_create_db
@@ -39,6 +46,17 @@ from sqlite_update import sqlite3_update_rec
 
 # Create an object of ArgumentParser class
 parser = argparse.ArgumentParser(description='Sqlite Database')
+
+# Method 1 - Retriving command line arguments
+# n = len(sys.argv)
+# argument list containing arguments
+# args = sys.argv
+
+# print('No of command line arguments=', n)
+# print('The args are: ', args)
+# print('The args one by one')
+# for argument in args:
+#    print(argument)
 
 # Method 2 - Retriving command line arguments
 # Add arguments
@@ -76,19 +94,7 @@ elif args.op == "Create":
     sqlite3_create_db(args.db, args.tbl)
 else:
     print("Invalid option")
-    print("Syntax: python sqlite.py <operation> <database> <tablename> <values>")
-    
-# Method 1 - Retriving command line arguments
-# n = len(sys.argv)
-# argument list containing arguments
-# args = sys.argv
-
-# print('No of command line arguments=', n)
-# print('The args are: ', args)
-# print('The args one by one')
-# for argument in args:
-#    print(argument)
-
+    print("Syntax: python sqlite.py <operation> <database> <tablename> <record>")
 
 # PROGRAM 2
 

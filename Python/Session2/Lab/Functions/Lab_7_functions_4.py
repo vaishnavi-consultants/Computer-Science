@@ -1,5 +1,5 @@
 # functions
-# Pass by object referenc
+# Pass by object reference
 # Notes:
 # ------
 # 1. In Python, the values are sent to functions by means of object references.
@@ -30,8 +30,7 @@ print("retunr value", return1)
 print("*" * 15)
 print("Case 2: passing value and modifying it")
 y = 15
-print("id value of y before calling update_function")
-print(id(y))
+print("id value of y %d before calling update_function"%y,end=' ')
 print("Calling update_function")
 return1 = update_function(15)
 print("Values returned", return1)

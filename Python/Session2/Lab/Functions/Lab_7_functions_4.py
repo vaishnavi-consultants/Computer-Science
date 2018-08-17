@@ -11,6 +11,10 @@
 #    the references of these objects are passed to the function.
 #
 # 3. How objects are stored and tagged 
+# 4. In Python integers, floats, strings and tuples are immutable. 
+#    That means their data cannot be modified. When we try to change their value, 
+#    a new object is created with the modified value. Due to this, id(x) value will
+#    change when we pass the data types.
 
 print("*" * 15)    
 print("Case 1: Pass integer to function and change it")

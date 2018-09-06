@@ -1,0 +1,54 @@
+Brief notes on pip, ipython & jupyter and pandas
+------------------------------------------------
+(A)
+PIP 
+---
+The pip command is a tool for installing and managing Python packages, such as those found in 
+the Python Package Index.
+
+OR
+
+pip is a package management system used to install and manage software packages written in Python. 
+Many packages can be found in the default source for packages and their dependencies — 
+Python Package Index.
+
+Installing PIP
+--------------
+1. To install pip, securely download get-pip.py
+2. Run "python get-pip.py"
+
+(B)
+IPython
+-------
+IPython is an interactive command-line terminal for Python. It was created by Fernando Perez in 2001. 
+IPython offers an enhanced read-eval-print loop (REPL) environment particularly well adapted to
+scientific computing.
+
+Installing IPython
+------------------
+pip install ipython
+
+Jupyter
+-------
+In 2011, IPython introduced a new tool named the Notebook. Inspired by scientific programs like Mathematica or Sage,
+the Notebook offers a modern and powerful web interface to Python.
+
+Installing jupyter
+------------------
+pip install jupyter
+
+(C)
+Pandas
+------
+Python Data Analysis Library
+----------------------------
+pandas is an open source, BSD-licensed library providing high-performance, easy-to-use 
+data structures and data analysis tools for the Python programming language.
+
+Installing Pandas
+-----------------
+pip install pandas
+
+Reference
+---------
+https://plot.ly/python/ipython-vs-python/

@@ -1,0 +1,33 @@
+# String number to Integer
+>>> int("32")
+32
+
+# String to Integer
+>>> int("Hello")
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    int("Hello")
+ValueError: invalid literal for int() with base 10: 'Hello'
+
+# Float to Integer 
+>>> int(3.9999)
+3
+ 
+>>> int(-2.5)
+-2
+ 
+# Integer to Float 
+>>> float(32)
+32.0
+
+# String number to float 
+>>> float("3.145365")
+3.145365
+
+# Integer to string 
+>>> str(32)
+'32'
+
+# Float to Integer
+>>> str(3.145465)
+'3.145465'

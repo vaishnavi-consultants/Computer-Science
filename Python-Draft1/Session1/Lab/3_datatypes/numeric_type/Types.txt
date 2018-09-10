@@ -1,0 +1,58 @@
+
+# String type
+>>> type("hello")
+<type 'str'>
+
+>>> type('hello')
+<type 'str'>
+
+>>> type('''hello''')
+<type 'str'>
+
+>>> type("""hello""")
+<type 'str'>
+
+>>> type('45')
+<type 'str'>
+
+>>> type("45.6")
+<type 'str'>
+
+>>> type("This is python programming discussion")
+<type 'str'>
+
+>>> type("My name is 'Gururaja' !")
+<type 'str'>
+
+>>> type('My name is "Gururaj" !')
+<type 'str'>
+
+>>> type(''''Hi', "Gururaj" how are you''')
+<type 'str'>
+
+>>> type('''
+... 'Hi'
+... "Gururaj"
+... How are you''')
+<type 'str'>
+
+>>> "Gururaj"
+'Gururaj'
+>>> 
+>>> '''Gururaj'''
+'Gururaj'
+
+# Integer type
+>>> type(45)
+<type 'int'>
+
+# Float type
+>>> type(45.0)
+<type 'float'>
+
+# Module type
+>>> import math
+>>> type(math)
+<type 'module'>
+
+# Try for list, tuple, dictionary, set.

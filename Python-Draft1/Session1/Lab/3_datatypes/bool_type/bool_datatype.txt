@@ -1,0 +1,22 @@
+# Boolean datatype
+
+>>> a = 10
+>>> b = 20
+>>> True_false = a < b
+>>> True_false
+True
+  
+>>> True_False = a > b
+>>> True_False
+False
+  
+>>> if(a < b):
+	print("a is less thatn b")
+	
+a is less thatn b
+ 
+>>> a < b < 30
+True
+  
+>>> a < b < 10
+False

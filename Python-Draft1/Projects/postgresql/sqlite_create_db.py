@@ -15,7 +15,7 @@ def sqlite3_create_db(dbname, tablename):
  
     # connecting to the database
     db_name = dbname+".db"
-    connection = psycopg2.connect("dbname='database1' user='postgres' password='Athu03#' host='localhost' port='5432'")
+    connection = psycopg2.connect("dbname='database1' user='postgres' password='password' host='localhost' port='5432'")
  
     # cursor 
     crsr = connection.cursor()
